@@ -1,9 +1,18 @@
+@media (max-width: 600px) {
+    /* …use when phone screen is less than 600px */
+    .right{
+        width: 580px;
+        height: 1020px;
+    }
+}
+
+
 a{
     color: #2EC4B6
     }
 
     .container{
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
