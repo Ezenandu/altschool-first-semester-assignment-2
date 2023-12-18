@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./Logo.png">
+    <title>Sign up Page</title>
+</head>
+<body class="container">
+   <div class="left">
+        <img src="./Logo.png" alt="sign up logo">
+        <h1>For Individuals</h1>
+        <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, 
+            and improving organization wellness.</p>
+   </div>
+   <form class="right">
+        <label class="label fName">First Name<input type="text" placeholder="Tolu" autofocus class="input fName"></label>
+        <label class="label lName">Last Name<input type="text" placeholder="" class="input lName"></label>
+        <label class="label gender">Gender
+            <input list="gender" placeholder="Select here" class="input gender">
+            <datalist id="gender">
+                <option value="male">
+                <option value="female">
+            </datalist>
+        </label>
+        <label class="label dob">Date of Birth<input type="date" placeholder="Select here" class="input dob"></label>
+        <label class="label weight">Weight (KG)<input type="number" placeholder="Enter Weight" class="input weight"></label>
+        <label class="label height">Height (CM)<input type="number" placeholder="Enter height here.." class="input height"></label>
+        <label class="label activity">Activity Level
+            <input list="activity" placeholder="Select here" class="input activity">
+            <datalist id="activity">
+                <option value="high">
+                <option value="medium">
+                <option value="low">
+            </datalist>            
+        </label>
+        <label class="label password">Password<input type="password" placeholder="" class="input password"></label>
+        <input type="submit" value="Register" class="input register">
+        <p class="registerP">By clicking Register, you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a></p>
+   </form> 
+</body>
+</html>
